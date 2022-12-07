@@ -30,6 +30,6 @@ COPY . .
 
 RUN npm install
 
-ENTRYPOINT ["dumb-init", "--"]
+ENTRYPOINT ["dumb-init", "-c", "--"]
 
 
